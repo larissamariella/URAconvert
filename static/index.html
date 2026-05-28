@@ -215,6 +215,35 @@
         padding: 20px;
       }
 
+      .footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 18px;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid rgba(31, 41, 51, 0.14);
+        margin-top: 28px;
+        padding-top: 18px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 14px;
+      }
+
+      .footer a {
+        color: var(--accent-dark);
+        font-weight: 720;
+        text-decoration: none;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+
       .format-card h2,
       .result-panel h2 {
         margin: 0 0 14px;
@@ -381,6 +410,15 @@
           </dl>
         </aside>
       </section>
+
+      <footer class="footer">
+        <span>Desenvolvido por Larissa Mariella</span>
+        <span class="footer-links">
+          <a href="https://www.linkedin.com/in/larissa-mariella-393444280/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/larissamariella" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:larissa.mariellas@gmail.com">larissa.mariellas@gmail.com</a>
+        </span>
+      </footer>
     </main>
 
     <script>
